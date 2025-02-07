@@ -31,6 +31,10 @@ $(document).ready(function () {
         playerIA.choixIA();
         if ($('#choixUti h5').html() === $('#choixIa h5').html()) {
             alert('Match Null');
+            setTimeout(function(){
+                $('#choixUti h5').html('Autre choix');
+                $('#choixIa h5').html('Autre choix');
+            }, 1000);
         } else if (
             $('#choixUti h5').html() === 'Pierre' && $('#choixIa h5').html() === 'Ciseau' ||
             $('#choixUti h5').html() === 'Feuille' && $('#choixIa h5').html() === 'Pierre' ||
@@ -39,6 +43,10 @@ $(document).ready(function () {
             alert('Felicitation.\nVous avez gagné.');
             countU++;
             $('#scoreU').text(countU);
+            setTimeout(function(){
+                $('#choixUti h5').html('Autre choix');
+                $('#choixIa h5').html('Autre choix');
+            }, 1000);
         } else if (
             $('#choixUti h5').html() === 'Pierre' && $('#choixIa h5').html() === 'Feuille' ||
             $('#choixUti h5').html() === 'Feuille' && $('#choixIa h5').html() === 'Ciseau' ||
@@ -47,6 +55,10 @@ $(document).ready(function () {
             alert('Dommage.\nVous avez perdu.');
             countI++;
             $('#scoreI').text(countI);
+            setTimeout(function(){
+                $('#choixUti h5').html('Autre choix');
+                $('#choixIa h5').html('Autre choix');
+            }, 1000);
         } else {
             alert('perdu')
         }
