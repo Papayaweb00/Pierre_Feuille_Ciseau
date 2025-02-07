@@ -1,0 +1,4 @@
+Pierre-Feuille-Ciseau(Le premier a avoir 5 gagne)
+
+Ceci est un jeu comme sont nom l'indique. Si vous venez de le connaitre, nous allons t'expliquer les régles : 1-Si vous choisissez pierre et que l'ordinateur choisi feuille, vous perdez et le score de celui-ci est incrementé de 1. -Si c'est le contraire qui se produit, vous gagner et vous aurez +1 a votre score.
+2-Si vous choisissez ciseau et que l'ordinateur choisi pierre, vous perdez et le score de celui-ci est incrementé de 1. -Si c'est le contraire qui se produit, vous gagner et vous aurez +1 a votre score. 3-Si vous choisissez feuille et que l'ordinateur choisi ciseau, vous perdez et le score de celui-ci est incrementé de 1. -Si c'est le contraire qui se produit, vous gagner et vous aurez +1 a votre score. NB: Si vous avez choisi la meme chose que l'ordinateur, aucun des deux ne va avoir de points.
